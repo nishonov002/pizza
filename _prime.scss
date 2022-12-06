@@ -1,0 +1,201 @@
+body {
+  background-color: rgb(183, 109, 19);
+  .container {
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      margin-top: 60px;
+      font-size: 54px;
+      color: adjust-hue($color: #ececec, $degrees: 0);
+    }
+    .pitsa {
+      display: flex;
+      align-items: center;
+      .pitsa_making {
+        margin-top: 40px;
+        margin-right: 40px;
+        width: 500px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        h2 {
+          margin-top: 20px;
+          margin-left: 40px;
+          color: lightsalmon;
+        }
+
+        .bread {
+          position: relative;
+          width: 400px;
+          height: 400px;
+          border-radius: 50%;
+          background-color: rgb(214, 36, 13);
+          border: 20px solid rgb(209, 89, 56);
+          &_1 {
+            width: 360px;
+            height: 5px;
+            background-color: rgb(234, 139, 91);
+            border-radius: 5px;
+            transform: translate(0px, 170px);
+            position: absolute;
+          }
+          &_2 {
+            width: 360px;
+            height: 5px;
+            background-color: rgb(234, 139, 91);
+            border-radius: 5px;
+
+            position: absolute;
+            transform: rotate(45deg);
+            top: 178px;
+          }
+          &_3 {
+            width: 360px;
+            height: 5px;
+            background-color: rgb(234, 139, 91);
+            border-radius: 5px;
+            transform: rotate(90deg);
+            position: absolute;
+            top: 178px;
+          }
+          &_4 {
+            width: 360px;
+            height: 5px;
+            background-color: rgb(234, 139, 91);
+            border-radius: 5px;
+            transform: rotate(135deg);
+            position: absolute;
+            top: 178px;
+          }
+
+          img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            position: absolute;
+          }
+          div {
+            display: none;
+          }
+          .tomoto {
+            &_1 {
+              transform: translate(150px, 10px);
+            }
+            &_2 {
+              transform: translate(25px, 140px);
+            }
+            &_3 {
+              transform: translate(270px, 140px);
+            }
+            &_4 {
+              transform: translate(150px, 290px);
+            }
+          }
+          .cucumber {
+            &_1 {
+              transform: translate(90px, 30px);
+            }
+            &_2 {
+              transform: translate(30px, 200px);
+            }
+            &_3 {
+              transform: translate(260px, 80px);
+            }
+            &_4 {
+              transform: translate(210px, 260px);
+            }
+          }
+          .seer {
+            &_1 {
+              transform: translate(40px, 70px);
+            }
+            &_2 {
+              transform: translate(75px, 260px);
+            }
+            &_3 {
+              transform: translate(220px, 30px);
+            }
+            &_4 {
+              transform: translate(260px, 220px);
+            }
+          }
+          .meat {
+            &_1 {
+              transform: translate(150px, 70px);
+            }
+            &_2 {
+              transform: translate(85px, 140px);
+            }
+            &_3 {
+              transform: translate(210px, 140px);
+            }
+            &_4 {
+              transform: translate(150px, 230px);
+            }
+          }
+          .mushroom {
+            &_1 {
+              transform: translate(200px, 90px);
+            }
+            &_2 {
+              transform: translate(105px, 90px);
+            }
+            &_3 {
+              transform: translate(200px, 200px);
+            }
+            &_4 {
+              transform: translate(90px, 200px);
+            }
+          }
+        }
+      }
+      .pitsa_price {
+        width: 500px;
+
+        form {
+          text-align: center;
+          padding: 40px 30px;
+          display: flex;
+          flex-direction: column;
+          gap: 33px;
+          div {
+            display: flex;
+            align-items: center;
+            gap: 33px;
+            label {
+              font-size: 20px;
+              color: #fff;
+            }
+            select {
+              font-size: 18px;
+              border: none;
+              border-radius: 20px;
+              outline: none;
+              padding: 5px 10px;
+
+              &:hover {
+                color: rgb(203, 125, 23);
+                border: none;
+                outline: none;
+              }
+            }
+          }
+          button {
+            width: 170px;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 20px;
+            font-size: 16px;
+            &:hover {
+              color: rgb(203, 125, 23);
+              transform: scale(1.1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

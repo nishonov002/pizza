@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(183, 109, 19);
+}
+body .container {
+  margin: 0 auto;
+  width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container h1 {
+  margin-top: 60px;
+  font-size: 54px;
+  color: #ececec;
+}
+body .container .pitsa {
+  display: flex;
+  align-items: center;
+}
+body .container .pitsa .pitsa_making {
+  margin-top: 40px;
+  margin-right: 40px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+body .container .pitsa .pitsa_making h2 {
+  margin-top: 20px;
+  margin-left: 40px;
+  color: lightsalmon;
+}
+body .container .pitsa .pitsa_making .bread {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: rgb(214, 36, 13);
+  border: 20px solid rgb(209, 89, 56);
+}
+body .container .pitsa .pitsa_making .bread_1 {
+  width: 360px;
+  height: 5px;
+  background-color: rgb(234, 139, 91);
+  border-radius: 5px;
+  transform: translate(0px, 170px);
+  position: absolute;
+}
+body .container .pitsa .pitsa_making .bread_2 {
+  width: 360px;
+  height: 5px;
+  background-color: rgb(234, 139, 91);
+  border-radius: 5px;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 178px;
+}
+body .container .pitsa .pitsa_making .bread_3 {
+  width: 360px;
+  height: 5px;
+  background-color: rgb(234, 139, 91);
+  border-radius: 5px;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 178px;
+}
+body .container .pitsa .pitsa_making .bread_4 {
+  width: 360px;
+  height: 5px;
+  background-color: rgb(234, 139, 91);
+  border-radius: 5px;
+  transform: rotate(135deg);
+  position: absolute;
+  top: 178px;
+}
+body .container .pitsa .pitsa_making .bread img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+}
+body .container .pitsa .pitsa_making .bread div {
+  display: none;
+}
+body .container .pitsa .pitsa_making .bread .tomoto_1 {
+  transform: translate(150px, 10px);
+}
+body .container .pitsa .pitsa_making .bread .tomoto_2 {
+  transform: translate(25px, 140px);
+}
+body .container .pitsa .pitsa_making .bread .tomoto_3 {
+  transform: translate(270px, 140px);
+}
+body .container .pitsa .pitsa_making .bread .tomoto_4 {
+  transform: translate(150px, 290px);
+}
+body .container .pitsa .pitsa_making .bread .cucumber_1 {
+  transform: translate(90px, 30px);
+}
+body .container .pitsa .pitsa_making .bread .cucumber_2 {
+  transform: translate(30px, 200px);
+}
+body .container .pitsa .pitsa_making .bread .cucumber_3 {
+  transform: translate(260px, 80px);
+}
+body .container .pitsa .pitsa_making .bread .cucumber_4 {
+  transform: translate(210px, 260px);
+}
+body .container .pitsa .pitsa_making .bread .seer_1 {
+  transform: translate(40px, 70px);
+}
+body .container .pitsa .pitsa_making .bread .seer_2 {
+  transform: translate(75px, 260px);
+}
+body .container .pitsa .pitsa_making .bread .seer_3 {
+  transform: translate(220px, 30px);
+}
+body .container .pitsa .pitsa_making .bread .seer_4 {
+  transform: translate(260px, 220px);
+}
+body .container .pitsa .pitsa_making .bread .meat_1 {
+  transform: translate(150px, 70px);
+}
+body .container .pitsa .pitsa_making .bread .meat_2 {
+  transform: translate(85px, 140px);
+}
+body .container .pitsa .pitsa_making .bread .meat_3 {
+  transform: translate(210px, 140px);
+}
+body .container .pitsa .pitsa_making .bread .meat_4 {
+  transform: translate(150px, 230px);
+}
+body .container .pitsa .pitsa_making .bread .mushroom_1 {
+  transform: translate(200px, 90px);
+}
+body .container .pitsa .pitsa_making .bread .mushroom_2 {
+  transform: translate(105px, 90px);
+}
+body .container .pitsa .pitsa_making .bread .mushroom_3 {
+  transform: translate(200px, 200px);
+}
+body .container .pitsa .pitsa_making .bread .mushroom_4 {
+  transform: translate(90px, 200px);
+}
+body .container .pitsa .pitsa_price {
+  width: 500px;
+}
+body .container .pitsa .pitsa_price form {
+  text-align: center;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+body .container .pitsa .pitsa_price form div {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+body .container .pitsa .pitsa_price form div label {
+  font-size: 20px;
+  color: #fff;
+}
+body .container .pitsa .pitsa_price form div select {
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  outline: none;
+  padding: 5px 10px;
+}
+body .container .pitsa .pitsa_price form div select:hover {
+  color: rgb(203, 125, 23);
+  border: none;
+  outline: none;
+}
+body .container .pitsa .pitsa_price form button {
+  width: 170px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+}
+body .container .pitsa .pitsa_price form button:hover {
+  color: rgb(203, 125, 23);
+  transform: scale(1.1);
+}
+
+.open10 {
+  opacity: 1;
+}
+
+.open1 {
+  opacity: 0;
+}/*# sourceMappingURL=main.css.map */
